@@ -1,0 +1,32 @@
+# Gradio cache
+. gradio/
+flagged/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+. Python
+
+# Virtual environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CREDENTIALS - JANGAN PUSH! 
+*.json
+soy-bazaar-*. json
+
+# FILE TERLALU BESAR (>100MB limit GitHub)
+dataset_smarthome.csv
+dataset_smart_home_done(1).csv
